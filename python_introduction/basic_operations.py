@@ -2,14 +2,14 @@
 # Subtraction of 10 and 5 is 5
 # Multiplication of 10 and 5 is 50
 
-int_a = 10
-int_b = 5
-addition = int_a + int_b
-subtraction = int_a - int_b
-multiplication = int_a * int_b
+number1 = 10
+number2 = 5
+addition = number1 + number2
+subtraction = number1 - number2
+multiplication = number1 * number2
 
-print("Addition of", int_a , "and", int_b ,"is", addition)
+print("Addition of", number1 , "and", number2 ,"is", addition)
 
-print("Subtraction of", int_a , "and", int_b ,"is", subtraction)
+print("Subtraction of", number1 , "and", number2 ,"is", subtraction)
 
-print("Multiplication of", int_a , "and", int_b ,"is", multiplication)
+print("Multiplication of", number1 , "and", number2 ,"is", multiplication)
