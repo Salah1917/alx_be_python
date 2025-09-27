@@ -18,6 +18,8 @@ def main():
     elif type == 'C':
         converted = convert_to_fahrenheit(temp)
         print(f"{temp}°C is {converted}°F")
+    else:
+        print("Invalid temperature type. Please enter 'C' or 'F'.")
 
 if __name__ == "__main__":
     main()
